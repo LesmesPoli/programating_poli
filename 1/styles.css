@@ -1,0 +1,66 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #222;
+}
+
+/* Botón inicial */
+#btn {
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background: white;
+  color: black;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+
+  /* transición suave en todos los cambios */
+  transition: 
+    width 0.6s ease,
+    height 0.6s ease,
+    border-radius 0.6s ease,
+    background 0.6s ease,
+    color 0.4s ease,
+    padding 0.6s ease;
+}
+
+/* Cuando se convierte en barra */
+#btn.loading {
+  width: 200px;
+  height: 20px;
+  border-radius: 20px;
+  color: transparent;
+  padding: 0;
+  background: linear-gradient(270deg, #ff0000, #00ff00, #0000ff);
+  background-size: 600% 600%;
+  animation: gradiente 4s ease infinite;
+}
+
+/* Barra de progreso dentro del botón */
+#btn.loading::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background: #76ff03;
+  border-radius: 20px;
+  animation: progress 3s forwards;
+}
+
+@keyframes progress {
+  from { width: 0; }
+  to   { width: 100%; }
+}
+
+@keyframes gradiente {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
