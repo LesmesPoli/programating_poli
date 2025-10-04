@@ -1,0 +1,102 @@
+[
+    {
+        "nombre": "Arroz",
+        "cantidad_disponible": 50,
+        "valor": 2500
+    },
+    {
+        "nombre": "Frijoles",
+        "cantidad_disponible": 40,
+        "valor": 3200
+    },
+    {
+        "nombre": "Aceite",
+        "cantidad_disponible": 30,
+        "valor": 10500
+    },
+    {
+        "nombre": "Azúcar",
+        "cantidad_disponible": 60,
+        "valor": 2800
+    },
+    {
+        "nombre": "Sal",
+        "cantidad_disponible": 70,
+        "valor": 1500
+    },
+    {
+        "nombre": "Leche",
+        "cantidad_disponible": 45,
+        "valor": 3800
+    },
+    {
+        "nombre": "Huevos",
+        "cantidad_disponible": 100,
+        "valor": 500
+    },
+    {
+        "nombre": "Pan",
+        "cantidad_disponible": 35,
+        "valor": 1200
+    },
+    {
+        "nombre": "Queso",
+        "cantidad_disponible": 25,
+        "valor": 8500
+    },
+    {
+        "nombre": "Pollo",
+        "cantidad_disponible": 20,
+        "valor": 14500
+    },
+    {
+        "nombre": "Carne de res",
+        "cantidad_disponible": 15,
+        "valor": 19800
+    },
+    {
+        "nombre": "Pasta",
+        "cantidad_disponible": 55,
+        "valor": 2500
+    },
+    {
+        "nombre": "Tomate",
+        "cantidad_disponible": 80,
+        "valor": 700
+    },
+    {
+        "nombre": "Cebolla",
+        "cantidad_disponible": 90,
+        "valor": 600
+    },
+    {
+        "nombre": "Papa",
+        "cantidad_disponible": 100,
+        "valor": 1000
+    },
+    {
+        "nombre": "Manzana",
+        "cantidad_disponible": 60,
+        "valor": 1200
+    },
+    {
+        "nombre": "Banano",
+        "cantidad_disponible": 75,
+        "valor": 800
+    },
+    {
+        "nombre": "Naranja",
+        "cantidad_disponible": 65,
+        "valor": 1000
+    },
+    {
+        "nombre": "Jabón",
+        "cantidad_disponible": 50,
+        "valor": 2200
+    },
+    {
+        "nombre": "Shampoo",
+        "cantidad_disponible": 30,
+        "valor": 7800
+    }
+]
